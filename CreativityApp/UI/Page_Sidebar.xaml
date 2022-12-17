@@ -1,0 +1,29 @@
+﻿<Page x:Class="CreativityApp.UI.Page_Sidebar"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CreativityApp.UI"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page_Sidebar">
+
+    <Grid>
+        <StackPanel
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <Button
+            x:Name="buttonShowProduct"
+            Content="Посмотреть товары"
+            Click="buttonShowProduct_Click"/>
+            <Button
+            x:Name="buttonChangeUser"
+            Content="Сменить пользователя"
+            Click="buttonChangeUser_Click"/>
+            <Button
+            x:Name="buttonExit"
+            Content="Завершить работу"
+            Click="buttonExit_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
